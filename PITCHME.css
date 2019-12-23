@@ -1,3 +1,11 @@
 .reveal span {
   background-color: rgb(255, 0, 0);
 }
+
+.hljs {
+  display: block;
+  background: #e72121;
+  padding: 0.5em;
+  color: #333333;
+  overflow-x: auto;
+}
