@@ -176,18 +176,6 @@ if (score > 60) {
 
 ## Quiz I
 
-Could you rewrite conditional in `Demo V` to work exactly like `Demo III`?
-
-+++
-
-## Quiz II
-
-What structure do we use to compute the number of bank notes and coins?
-
-+++
-
-## Quiz III
-
 How to set `file2open` to *"inputfi.csv"* when `fname` is null?
 
 ```csharp
@@ -201,7 +189,7 @@ void OpenInputFile(string fname) {
 
 +++
 
-## Demo VI
+## Demo II
 
 ```csharp
 void OpenInputFile(string fname) {
@@ -218,7 +206,7 @@ void OpenInputFile(string fname) {
 
 +++
 
-## Demo VII
+## Demo III
 
 ```csharp
 void OpenInputFile(string fname) {
@@ -233,7 +221,7 @@ void OpenInputFile(string fname) {
 
 +++
 
-## Demo VIII
+## Demo IV
 
 ```csharp
 void OpenInputFile(string fname) {
@@ -254,7 +242,7 @@ var targetVar = targetValue ?? fallbackValue;
 
 +++
 
-## Demo IX
+## Demo V
 
 ```csharp
 void OpenInputFile(string fname) {
@@ -265,7 +253,7 @@ void OpenInputFile(string fname) {
 
 +++
 
-## Quiz IV
+## Quiz II
 
 How to set `file2open` to *"inputfi.csv"* when `fname` is null **or has only whitespace**?
 
@@ -280,7 +268,7 @@ void OpenInputFile(string fname) {
 
 +++
 
-## Demo X
+## Demo VI
 
 ```csharp
 void OpenInputFile(string fname) {
@@ -293,7 +281,7 @@ void OpenInputFile(string fname) {
 
 +++
 
-## Demo XI
+## Demo VII
 
 ```csharp
 void OpenInputFile(string fname) {
@@ -308,7 +296,7 @@ void OpenInputFile(string fname) {
 
 ---
 
-## Quiz V
+## Quiz III
 
 How to get the number of elements in `inputData` and assign to `count` correctly?
 
@@ -321,7 +309,7 @@ void ComputeMean(int[] inputData) {
 
 +++
 
-## Demo XII
+## Demo VIII
 
 ```csharp
 void ComputeMean(int[] inputData) {
@@ -334,7 +322,7 @@ void ComputeMean(int[] inputData) {
 
 +++
 
-## Demo XIII
+## Demo IX
 
 ```csharp
 void ComputeMean(int[] inputData) {
@@ -357,7 +345,7 @@ var count = inputData?.Length;
 
 +++
 
-## Demo XIV
+## Demo X
 
 ```csharp
 void ComputeMean(int[] inputData) {
@@ -367,7 +355,7 @@ void ComputeMean(int[] inputData) {
 
 +++
 
-## Demo XV
+## Demo XI
 
 ```csharp
 void ComputeMean(int[] inputData) {
