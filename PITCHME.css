@@ -6,7 +6,7 @@
  */
 
  body {
-    background: #fff;
+    background: rgb(173, 170, 165);
     background-color: #fff;
   }
   
@@ -35,7 +35,7 @@
   
   .reveal .slides section .code-presenting-annotation {
     color: white;
-    background: #1f1c18;
+    background: #ffffff;
     padding: 1px 15px;
     border-radius: 15px;
     opacity: 0.75 !important;
