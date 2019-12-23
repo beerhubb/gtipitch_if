@@ -1,6 +1,6 @@
 # Conditional Statements
 
-### If-Then-Else, Switch-Case
+### If-Then-Else
 
 ---
 
