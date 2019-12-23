@@ -3,11 +3,15 @@
 section.has-dark-background h2 {
   color: rgb(0, 119, 255);
 }
-body {
-  background: #e12a2a;
-  background-color: #fff;
-}
-  
+
 .reveal .slide-background-content {
   background-color: cornsilk;
+}
+
+.hljs-comment {
+  color: rgb(18, 223, 18);
+}
+
+.hljs {
+  color: #ffffff;
 }
