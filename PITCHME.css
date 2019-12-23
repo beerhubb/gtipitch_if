@@ -15,3 +15,7 @@ section.has-dark-background h2 {
 .hljs {
   color: #ffffff;
 }
+
+section.has-dark-background {
+  color: #f26225;
+}
