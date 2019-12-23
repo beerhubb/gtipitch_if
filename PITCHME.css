@@ -6,7 +6,7 @@
  */
 
  body {
-    background: rgb(173, 170, 165);
+    background: rgb(221, 189, 189);
     background-color: #fff;
   }
   
@@ -43,7 +43,7 @@
   }
   
   .reveal p span.slide-title {
-    color: #333;
+    color: rgb(255, 255, 255);
     padding: 4px 15px;
     opacity: 0.75 !important;
     border-radius: 15px;
