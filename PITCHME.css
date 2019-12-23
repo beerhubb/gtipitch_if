@@ -1,4 +1,5 @@
 .reveal span {
-  background-color: rgb(250, 249, 235);
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(226, 230, 208);
   opacity: 0.5;
 }
