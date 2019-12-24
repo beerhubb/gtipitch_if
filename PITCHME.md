@@ -141,20 +141,5 @@ if (score > 80) {
 ```
 
 +++
-
-## Demo IV
-
-```csharp
-if (score > 80) {
-	grade = "A";
-} if (score > 70) {
-	grade = "B";
-} if (score > 60) {
-	grade = "C";
-} else {
-	grade = "F";
-}
-```
-
 ---
 
