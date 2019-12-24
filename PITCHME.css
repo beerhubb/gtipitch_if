@@ -19,6 +19,12 @@ section.has-dark-background h2 {
 section.has-dark-background {
   color: #f26225;
 }
+.reveal{
+  color: #ffffff;
+}
+.reveal h1{
+  color: #f26225;
+}
 
 .reveal h3 {
 
