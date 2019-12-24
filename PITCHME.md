@@ -6,9 +6,14 @@
 
 ## Agenda
 
+@snap[midpoint list-content-concise span-100]
+@ol
 * Basic `if` statement syntaxs
 * Ternary Operator
 * Demo
+@olend
+<br><br>
+@snapend
 
 ---
 
