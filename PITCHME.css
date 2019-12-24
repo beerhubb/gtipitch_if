@@ -2,6 +2,7 @@
 .reveal h2,
 section.has-dark-background h2 {
   color: rgb(235, 86, 27);
+  text-shadow: 0 0 3px rgb(0, 0, 0);
 }
 
 .reveal .slide-background-content {
@@ -26,7 +27,7 @@ section.has-dark-background {
 
   color: #ffffff;
 }
-
+/*สีพื้นหลัง*/
 /*.reveal pre code,
 .reveal pre code {
 background-color:rgba(255, 255, 255, 0.76);
