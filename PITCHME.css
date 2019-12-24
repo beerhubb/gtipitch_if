@@ -2,7 +2,7 @@
 .reveal h2,
 section.has-dark-background h2 {
   color: rgb(235, 86, 27);
-  text-shadow: 0 0 3px rgb(138, 255, 5);
+  text-shadow: 2px 2px 5px red;
 }
 
 .reveal .slide-background-content {
