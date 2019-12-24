@@ -26,3 +26,8 @@ section.has-dark-background {
 
   color: #ffffff;
 }
+
+.reveal pre code,
+.reveal pre code {
+background-color:rgba(255, 99, 71, 0.4);
+}
