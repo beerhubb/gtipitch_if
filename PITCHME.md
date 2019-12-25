@@ -66,6 +66,7 @@ if (vat > 0.0) {
 	amount = price * (100 + vat) / 100;
 }
 
+
 else {
 	amount = price;
 }
