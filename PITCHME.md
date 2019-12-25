@@ -19,7 +19,8 @@
 ```csharp
 if (condition) {
 	// Do if the condition is true
-} else {
+} 
+else {
 	// Or if the condition is not met
 }
 ```
@@ -41,10 +42,12 @@ if (condition) {
 ```csharp
 if (condition) {
 	// Do if the condition is true
-} else if(condition2) {
+} 
+else if(condition2) {
 	// Do if not met the first condition
 	// but the 2nd one is true
-} else {
+} 
+else {
 	// Or if those above conditions are not met
 }
 ```
@@ -58,7 +61,8 @@ vat = 7.0; // VAT 7%
 
 if (vat > 0.0) {
 	amount = price * (100 + vat) / 100;
-} else {
+} 
+else {
 	amount = price;
 }
 ```
@@ -88,7 +92,8 @@ vat = 7.0; // VAT 7%
 
 if (vat > 0.0) {
 	amount = price * (100 + vat) / 100;
-} else {
+} 
+else {
 	amount = price;
 }
 ```
@@ -108,7 +113,8 @@ var name = Console.ReadLine();
 
 if (name == "John") {
 	Console.WriteLine("Oh, I'm looking for you John!");
-} else {
+} 
+else {
 	Console.WriteLine("Sorry, I thought you're John.");
 }
 ```
@@ -133,11 +139,14 @@ Console.WriteLine("Sorry, I thought you're John.");
 ```csharp
 if (score > 80) {
 	grade = "A";
-} else if (score > 70) {
+} 
+else if (score > 70) {
 	grade = "B";
-} else if (score > 60) {
+} 
+else if (score > 60) {
 	grade = "C";
-} else {
+} 
+else {
 	grade = "F";
 }
 ---
@@ -148,7 +157,9 @@ if (score > 80) {
 if (vat > 0.0) {
 	amount = price * (100 + vat) / 100;
 
-}else {
+}
+
+else {
 	amount = price;
 }
 
