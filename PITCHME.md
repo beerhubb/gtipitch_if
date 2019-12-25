@@ -52,15 +52,14 @@ if (vat > 0.0) {
 
 ```csharp
 var name = Console.ReadLine();
-
 if (name == "John") {
 	Console.WriteLine("Oh, I'm looking for you John!");
 } else {
 	Console.WriteLine("Sorry, I thought you're John.");
 }
 ```
-@[1-4]
-@[5-7]
+@[1-3]
+@[4-6]
 ## result
 
 ```csharp
