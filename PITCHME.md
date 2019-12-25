@@ -81,7 +81,7 @@ amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 
 +++
 
-## Quick Demo I
+## Quick Demo 1
 
 ```csharp
 vat = 7.0; // VAT 7%
@@ -101,7 +101,7 @@ amount = (vat > 0.0) ? price * (100 + vat) / 100 : price;
 
 ---
 
-## Demo I
+## Demo 1
 
 ```csharp
 var name = Console.ReadLine();
@@ -115,7 +115,7 @@ if (name == "John") {
 
 +++
 
-## Demo II
+## Demo 2
 
 ```csharp
 var name = Console.ReadLine();
@@ -128,7 +128,7 @@ Console.WriteLine("Sorry, I thought you're John.");
 
 +++
 
-## Demo III
+## Demo 3
 
 ```csharp
 if (score > 80) {
