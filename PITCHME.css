@@ -9,6 +9,11 @@ section.has-dark-background h5 {
   color: red;
 }
 
+.reveal h5 {
+  color: darkgray;
+  font-size: small;
+}
+
 .reveal .slide-background-content {
   background-color: rgb(7, 7, 7);
 }
