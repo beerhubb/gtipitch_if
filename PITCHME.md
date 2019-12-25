@@ -29,13 +29,20 @@ if (condition) {
 
 ```csharp
 vat = 7.0; // VAT 7%
+price = 100;
 
 if (vat > 0.0) {
-	amount = price * (100 + vat) / 100;
+	var amount = price * (100 + vat) / 100;
 } else {
 	amount = price;
 }
 ```
+
+ ## result
+
+```csharp
+ 107
+ ```
 
 +++
 
@@ -49,6 +56,16 @@ if (name == "John") {
 } else {
 	Console.WriteLine("Sorry, I thought you're John.");
 }
+```
+
+## result
+
+```csharp
+True
+Oh, I'm looking for you John!
+
+False
+Sorry, I thought you're John.
 ```
 
 ---
