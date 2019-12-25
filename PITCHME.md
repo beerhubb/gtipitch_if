@@ -14,7 +14,7 @@
 
 ---
 
-## Basic `if` statement syntax I
+## Basic `if else` statement syntax 1
 
 ```csharp
 if (condition) {
@@ -25,31 +25,6 @@ if (condition) {
 ```
 
 +++
-
-## Basic `if` statement syntax II
-
-```csharp
-if (condition) {
-	// Do if the condition is true
-}
-```
-
-+++
-
-## Basic `if` statement syntax III
-
-```csharp
-if (condition) {
-	// Do if the condition is true
-} else if(condition2) {
-	// Do if not met the first condition
-	// but the 2nd one is true
-} else {
-	// Or if those above conditions are not met
-}
-```
-
----
 
 ## Quick Demo
 
@@ -64,6 +39,93 @@ if (vat > 0.0) {
 ```
 
 ---
+
+## Basic `if` statement syntax 2
+
+```csharp
+if (condition) {
+	// Do if the condition is true
+}
+```
+
++++
+
+## Demo 2
+
+```csharp
+var name = Console.ReadLine();
+
+if (name == "John") {
+	Console.WriteLine("Oh, I'm looking for you John!");
+}
+Console.WriteLine("Sorry, I thought you're John.");
+```
+
+---
+
+## Basic `else if` statement syntax 3
+
+```csharp
+if (condition) {
+	// Do if the condition is true
+} else if(condition2) {
+	// Do if not met the first condition
+	// but the 2nd one is true
+} else {
+	// Or if those above conditions are not met
+}
+```
+
++++
+
+## Demo 3
+
+```csharp
+if (score > 80) {
+    Console.writeline("A")
+} else if (score > 70) {
+    Console.writeline("B")
+} else if (score > 60) {
+    Console.writeline("C")
+} else {
+    Console.writeline("F")
+}
+```
+
+---
+
+## Basic `if if` statement syntax 3
+
+```csharp
+if (condition) {
+
+} if (condition) {
+
+} if (condition) {
+
+} else {
+
+}
+```
+
+---
+
+## Basic `if in if` statement syntax 3
+
+```csharp
+if (condition) {
+	if (condition) {
+
+	} else (
+
+	)
+}
+```
+
++++
+
+
+
 
 ## Ternary Operator
 
@@ -113,18 +175,7 @@ if (name == "John") {
 }
 ```
 
-+++
 
-## Demo 2
-
-```csharp
-var name = Console.ReadLine();
-
-if (name == "John") {
-	Console.WriteLine("Oh, I'm looking for you John!");
-}
-Console.WriteLine("Sorry, I thought you're John.");
-```
 
 +++
 
