@@ -101,7 +101,7 @@ Console.WriteLine("Sorry, I thought you're John.");
 Oh, I'm looking for you John!
 Sorry, I thought you're John.
 ```
-@[7-8]
+@[7-8] 
 ##### ถึง name จะเป็นจริงหรือไม่ *"Sorry, I thought you're John."* ยังแสดงผลอยู่ดีนะ 
 
 ---
