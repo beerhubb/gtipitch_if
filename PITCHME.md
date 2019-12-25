@@ -99,9 +99,7 @@ Oh, I'm looking for you John!
 ```csharp
 Sorry, I thought you're John.
 ```
-```csharp
-**ถึง name จะเป็นจริงหรือไม่ "Sorry, I thought you're John." ยังแสดงผลอยู่ดีนะ 
-```
+##### **ถึง name จะเป็นจริงหรือไม่ "Sorry, I thought you're John." ยังแสดงผลอยู่ดีนะ 
 
 ---
 
