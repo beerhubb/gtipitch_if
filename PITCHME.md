@@ -21,7 +21,7 @@ if (condition) {
 	// Do if the condition is true
 }	 
 
-else {
+ else {
 	// Or if the condition is not met
 }
 ```
