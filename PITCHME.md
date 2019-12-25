@@ -66,12 +66,12 @@ if (name == "John") {
 ```csharp
 Oh, I'm looking for you John!
 ```
-@[8]
+@[8-9]
 
 ```csharp
 Sorry, I thought you're John.
 ```
-@[9]
+
 ---
 
 ## Basic `if` statement syntax 
