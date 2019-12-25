@@ -99,7 +99,7 @@ Oh, I'm looking for you John!
 ```csharp
 Sorry, I thought you're John.
 ```
-##### **ถึง name จะเป็นจริงหรือไม่ `"Sorry, I thought you're John."` ยังแสดงผลอยู่ดีนะ 
+##### **ถึง name จะเป็นจริงหรือไม่ *"Sorry, I thought you're John."* ยังแสดงผลอยู่ดีนะ 
 
 ---
 
@@ -205,7 +205,7 @@ var number = 1;
 var numbers = 2;
 if (number == 1) {
 
-	if (numbera == 2) {
+	if (number == 2) {
 		Console.writeline("Hello World")
 	} else (
 		Console.writeline("Hello mama");
@@ -221,7 +221,7 @@ Hello World
 
 ---
 
-## Ternary Operator
+## Ternary Operator statement syntax 
 
 ```csharp
 result = condition ? valueIfTrue: valueIfFalse;
