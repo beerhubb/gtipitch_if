@@ -20,11 +20,13 @@
 if (condition) {
 	// Do if the condition is true
 } 
+
 else {
 	// Or if the condition is not met
 }
 ```
-
+@[1-4](1: เมื่อเงื่อนใขเป็นจริง โค้ตจะเข้าไปทำงานต่อภายในบล็อกของ if)
+@[6-8](2: ถ้าเงื่อนใขเป็นเท็จ โค้ตจะเข้ามาทำงานภายในบล็อกของ else)
 +++
 
 ## Basic `if` statement syntax II
@@ -43,6 +45,7 @@ if (condition) {
 if (condition) {
 	// Do if the condition is true
 } 
+
 else if(condition2) {
 	// Do if not met the first condition
 	// but the 2nd one is true
@@ -61,12 +64,14 @@ vat = 7.0; // VAT 7%
 
 if (vat > 0.0) {
 	amount = price * (100 + vat) / 100;
-} 
+}
+
 else {
 	amount = price;
 }
 ```
-
+@[1-4](1: เมื่อเงื่อนใขเป็นจริง โค้ตจะเข้าไปทำงานต่อภายในบล็อกของ if)
+@[6-8](2: ถ้าเงื่อนใขเป็นเท็จ โค้ตจะเข้ามาทำงานภายในบล็อกของ else)
 ---
 
 ## Ternary Operator
@@ -149,11 +154,10 @@ else if (score > 60) {
 else {
 	grade = "F";
 }
+```
 ---
 ## Example
-
 ```
-
 if (vat > 0.0) {
 	amount = price * (100 + vat) / 100;
 }
