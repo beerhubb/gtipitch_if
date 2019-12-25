@@ -42,7 +42,7 @@ if (vat > 0.0) {
 
 ```csharp
  107
- ```
+```
 
 +++
 
@@ -61,10 +61,10 @@ if (name == "John") {
 ## result
 
 ```csharp
-True
 Oh, I'm looking for you John!
+```
 
-False
+```csharp
 Sorry, I thought you're John.
 ```
 
