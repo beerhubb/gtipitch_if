@@ -65,7 +65,7 @@ if (name == "John") {
 ```csharp
 Oh, I'm looking for you John!
 ```
-@[8-9]
+@[7-9]
 
 ```csharp
 Sorry, I thought you're John.
