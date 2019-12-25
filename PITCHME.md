@@ -13,7 +13,7 @@
 
 ---
 
-## Basic `if else` statement syntax 1
+## Basic `if else` statement syntax 
 
 ```csharp
 if (condition) {
@@ -70,7 +70,7 @@ Sorry, I thought you're John.
 
 ---
 
-## Basic `if` statement syntax 2
+## Basic `if` statement syntax 
 
 ```csharp
 if (condition) {
@@ -91,9 +91,19 @@ if (name == "John") {
 Console.WriteLine("Sorry, I thought you're John.");
 ```
 
+## result
+
+```csharp
+Oh, I'm looking for you John!
+Sorry, I thought you're John.
+```
+```csharp
+**ถึง name จะเป็นจริงหรือไม่ "Sorry, I thought you're John." ยังแสดงผลอยู่ดีนะ 
+```
+
 ---
 
-## Basic `else if` statement syntax 3
+## Basic `else if` statement syntax 
 
 ```csharp
 if (condition) {
@@ -111,6 +121,8 @@ if (condition) {
 ## Demo 3
 
 ```csharp
+var sccore = 81;
+
 if (score > 80) {
     Console.writeline("A")
 } else if (score > 70) {
@@ -122,19 +134,25 @@ if (score > 80) {
 }
 ```
 
+## result
+
+```csharp
+A
+```
+
 ---
 
-## Basic `if if` statement syntax 3
+## Basic `if if` statement syntax 
 
 ```csharp
 if (condition) {
-
+//
 } if (condition) {
-
+//
 } if (condition) {
-
+//
 } else {
-
+//
 }
 ```
 
@@ -143,6 +161,9 @@ if (condition) {
 ## demo 1
 
 ```csharp
+var score = 90;
+var grade;
+
 if (score > 80) {
 	grade = "A";
 } if (score > 70) {
@@ -152,19 +173,25 @@ if (score > 80) {
 } else {
 	grade = "F";
 }
+Console.writeline(grade);
+```
+
+## result
+
+```csharp
+C
 ```
 
 ---
 
-## Basic `if in if` statement syntax 3
+## Basic `if in if` statement syntax 
 
 ```csharp
 if (condition) {
-
 	if (condition) {
-
+		//
 	} else (
-
+		//
 	)
 }
 ```
@@ -174,14 +201,22 @@ if (condition) {
 ## demo 1
 
 ```csharp
-if (a == 1) {
+var number = 1;
+var numbers = 2;
+if (number == 1) {
 
-	if (b == 2) {
+	if (numbera == 2) {
 		Console.writeline("Hello World")
 	} else (
 		Console.writeline("Hello mama");
 	)
 }
+```
+
+## result
+
+```csharp
+Hello World
 ```
 
 ---
@@ -197,10 +232,14 @@ result = condition ? valueIfTrue: valueIfFalse;
 ## demo 1
 
 ```csharp
+vat = 0.7;
+price = 1000;
+
 amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 ```
 
-+++
+## result
 
-## demo 2
-
+```csharp
+1007
+```
