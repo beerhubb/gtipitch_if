@@ -22,8 +22,8 @@ if (condition) {
 	// Or if the condition is not met
 }
 ```
-@[1-3]
-@[4-6]
+@[1-2]
+@[3-5]
 +++
 
 ## Demo 1
@@ -45,7 +45,7 @@ if (vat > 0.0) {
 ```csharp
  107
 ```
-
+@[1-2]
 +++
 
 ## Demo 2
