@@ -144,11 +144,11 @@ if (score > 80) {
 ## Example
 
 ```
-1
+
 if (vat > 0.0) {
 	amount = price * (100 + vat) / 100;
 }
-2
+
  else {
 	amount = price;
 }
