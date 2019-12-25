@@ -93,7 +93,7 @@ if (name == "John") {
 }
 Console.WriteLine("Sorry, I thought you're John.");
 ```
-@[4-5]
+@[1-4]
 @[5-6]
 ## result
 
