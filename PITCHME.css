@@ -9,7 +9,7 @@ section.has-dark-background h5 {
   color: red;
 }
 
-.reveal h5 {
+.reveal h5 em {
   color: darkgray;
   font-size: 80%;
 }
