@@ -94,7 +94,7 @@ if (name == "John") {
 Console.WriteLine("Sorry, I thought you're John.");
 ```
 @[1-5]
-@[6-7]
+@[6]
 ## result
 
 ```csharp
