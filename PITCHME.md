@@ -66,11 +66,12 @@ if (name == "John") {
 ```csharp
 Oh, I'm looking for you John!
 ```
+@[8]
 
 ```csharp
 Sorry, I thought you're John.
 ```
-
+@[9]
 ---
 
 ## Basic `if` statement syntax 
@@ -101,6 +102,7 @@ Console.WriteLine("Sorry, I thought you're John.");
 Oh, I'm looking for you John!
 Sorry, I thought you're John.
 ```
+@[7-8]
 ##### ถึง name จะเป็นจริงหรือไม่ *"Sorry, I thought you're John."* ยังแสดงผลอยู่ดีนะ 
 
 ---
@@ -117,7 +119,9 @@ if (condition) {
 	// Or if those above conditions are not met
 }
 ```
-
+@[1-2]
+@[3-5]
+@[6-8]
 +++
 
 ## Demo 3
@@ -135,7 +139,10 @@ if (score > 80) {
     Console.writeline("F")
 }
 ```
-
+@[3-4]
+@[5-6]
+@[7-8]
+@[9-11]
 ## result
 
 ```csharp
@@ -157,7 +164,10 @@ if (condition) {
 //
 }
 ```
-
+@[1-2]
+@[3-4]
+@[5-6]
+@[7-9]
 +++
 
 ## demo 1
@@ -177,13 +187,16 @@ if (score > 80) {
 }
 Console.writeline(grade);
 ```
-
+@[4-5]
+@[6-7]
+@[8-9]
+@[10-12]
 ## result
 
 ```csharp
 C
 ```
-
+@[13]
 ---
 
 ## Basic `if in if` statement syntax 
@@ -197,7 +210,8 @@ if (condition) {
 	)
 }
 ```
-
+@[1]
+@[2-6]
 +++
 
 ## demo 1
@@ -214,12 +228,14 @@ if (number == 1) {
 	)
 }
 ```
-
+@[3]
+@[4-8]
 ## result
 
 ```csharp
 Hello World
 ```
+@[10]
 
 ---
 
