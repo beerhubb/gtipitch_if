@@ -16,10 +16,13 @@
 ## Basic `if else` statement syntax 
 
 ```csharp
-if (condition) {
-	// Do if the condition is true
-} else {
-	// Or if the condition is not met
+if (condition) 
+{
+
+} 
+else 
+{
+
 }
 ```
 
@@ -31,17 +34,20 @@ if (condition) {
 vat = 7.0; // VAT 7%
 price = 100;
 
-if (vat > 0.0) {
+if (vat > 0.0) 
+{
 	var amount = price * (100 + vat) / 100;
-} else {
+} 
+else 
+{
 	amount = price;
 }
 ```
 
- ## result
+ #### result
 
 ```csharp
- 107
+107
 ```
 
 +++
@@ -49,16 +55,19 @@ if (vat > 0.0) {
 ## Demo 2
 
 ```csharp
-var name = Console.ReadLine();
+var name = "John";
 
-if (name == "John") {
+if (name == "John") 
+{
 	Console.WriteLine("Oh, I'm looking for you John!");
-} else {
+} 
+else 
+{
 	Console.WriteLine("Sorry, I thought you're John.");
 }
 ```
 
-## result
+#### result
 
 ```csharp
 Oh, I'm looking for you John!
@@ -73,8 +82,9 @@ Sorry, I thought you're John.
 ## Basic `if` statement syntax 
 
 ```csharp
-if (condition) {
-	// Do if the condition is true
+if (condition) 
+{
+
 }
 ```
 
@@ -83,34 +93,39 @@ if (condition) {
 ## Demo 2
 
 ```csharp
-var name = Console.ReadLine();
+var name = "John";
 
-if (name == "John") {
+if (name == "John") 
+{
 	Console.WriteLine("Oh, I'm looking for you John!");
 }
 Console.WriteLine("Sorry, I thought you're John.");
 ```
 
-## result
+#### result
 
 ```csharp
 Oh, I'm looking for you John!
 Sorry, I thought you're John.
 ```
-##### ถึง name จะเป็นจริงหรือไม่ *"Sorry, I thought you're John."* ยังแสดงผลอยู่ดีนะ 
+##### ถึง name จะเป็นจริงหรือไม่ *"Sorry, I thought you're John."* ยังแสดงผลอยู่ดี
 
 ---
 
 ## Basic `else if` statement syntax 
 
 ```csharp
-if (condition) {
-	// Do if the condition is true
-} else if(condition2) {
-	// Do if not met the first condition
-	// but the 2nd one is true
-} else {
-	// Or if those above conditions are not met
+if (condition) 
+{
+
+} 
+else if(condition2) 
+{
+
+} 
+else 
+{
+
 }
 ```
 
@@ -121,18 +136,25 @@ if (condition) {
 ```csharp
 var sccore = 81;
 
-if (score > 80) {
+if (score > 80) 
+{
     Console.writeline("A")
-} else if (score > 70) {
+} 
+else if (score > 70) 
+{
     Console.writeline("B")
-} else if (score > 60) {
+} 
+else if (score > 60) 
+{
     Console.writeline("C")
-} else {
+} 
+else 
+{
     Console.writeline("F")
 }
 ```
 
-## result
+#### result
 
 ```csharp
 A
@@ -143,14 +165,21 @@ A
 ## Basic `if if` statement syntax 
 
 ```csharp
-if (condition) {
-//
-} if (condition) {
-//
-} if (condition) {
-//
-} else {
-//
+if (condition) 
+{
+
+} 
+if (condition) 
+{
+
+} 
+if (condition) 
+{
+
+} 
+else 
+{
+
 }
 ```
 
@@ -162,19 +191,26 @@ if (condition) {
 var score = 90;
 var grade;
 
-if (score > 80) {
+if (score > 80) 
+{
 	grade = "A";
-} if (score > 70) {
+} 
+if (score > 70) 
+{
 	grade = "B";
-} if (score > 60) {
+} 
+if (score > 60) 
+{
 	grade = "C";
-} else {
+} 
+else 
+{
 	grade = "F";
 }
-Console.writeline(grade);
+Console.writeline("grade = " + grade);
 ```
 
-## result
+#### result
 
 ```csharp
 C
@@ -185,11 +221,15 @@ C
 ## Basic `if in if` statement syntax 
 
 ```csharp
-if (condition) {
-	if (condition) {
-		//
-	} else (
-		//
+if (condition) 
+{
+	if (condition) 
+	{
+		
+	} 
+	else 
+	(
+
 	)
 }
 ```
@@ -201,17 +241,22 @@ if (condition) {
 ```csharp
 var number = 1;
 var numbers = 2;
-if (number == 1) {
 
-	if (number == 2) {
+if (number == 1) 
+{
+
+	if (numbers == 2) 
+	{
 		Console.writeline("Hello World")
-	} else (
+	} 
+	else 
+	{
 		Console.writeline("Hello mama");
-	)
+	}
 }
 ```
 
-## result
+#### result
 
 ```csharp
 Hello World
@@ -236,7 +281,7 @@ price = 1000;
 amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 ```
 
-## result
+#### result
 
 ```csharp
 1007
