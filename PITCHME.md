@@ -17,8 +17,7 @@
 if (condition) 
 {
 // Do if the condition is true
-} 
-else 
+} else 
 {
 // Or if the condition is not met
 }
@@ -34,8 +33,7 @@ var name = "John";
 if (name == "John") 
 {
 	Console.WriteLine("Oh, I'm looking for you John!");
-} 
-else 
+} else 
 {
 	Console.WriteLine("Sorry, I thought you're John.");
 }
@@ -57,8 +55,7 @@ var name = "Joe";
 if (name == "John") 
 {
 	Console.WriteLine("Oh, I'm looking for you John!");
-} 
-else 
+} else 
 {
 	Console.WriteLine("Sorry, I thought you're John.");
 }
