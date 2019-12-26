@@ -5,13 +5,13 @@
 ## Agenda
 
 @ol
-* `if-else` statement syntaxs
-* `if` statement syntaxs
+* `if-else` Statement Syntaxs
+* `if` Statement Syntaxs
 
 @olend
 
 ---
-##  `if else` statement syntax 
+##  `if else` Statement Syntax 
 
 ```csharp
 if (condition) 
@@ -71,7 +71,7 @@ Sorry, I thought you're John.
 ```
 
 ---
-##  `if` statement syntax 
+##  `if` Statement Syntax 
 
 ```csharp
 if (condition) 
