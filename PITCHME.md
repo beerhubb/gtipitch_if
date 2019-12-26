@@ -43,7 +43,7 @@ else
 
  #### result
 
-```csharp
+```text
 Oh, I'm looking for you John!
 ```
 
@@ -66,7 +66,7 @@ else
 
 #### result
 
-```csharp
+```text
 Sorry, I thought you're John.
 ```
 
@@ -96,7 +96,7 @@ Console.WriteLine("Sorry, I thought you're John.");
 
 #### result
 
-```csharp
+```text
 Oh, I'm looking for you John!
 Sorry, I thought you're John.
 ```
