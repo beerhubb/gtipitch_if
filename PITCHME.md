@@ -4,12 +4,12 @@
 
 ## หัวเรื่อง
 
-* Basic `if` statement syntaxs
-* Basic `if-else` statement syntaxs
+* การใช้และวิธีเขียน `if` เบื้องต้น
+* การใช้แบะวิธีเขียน `if else` เบื้องต้น
 
 ---
 
-## การใช้ `if` เบื้องต้น
+## การใช้และวิธีเขียน `if` เบื้องต้น
 
 ```csharp
 if (condition) 
@@ -42,7 +42,7 @@ Sorry, I thought you're John.
 
 ---
 
-## การใช้ `if else` เบื้องต้น
+## การใช้แบะวิธีเขียน `if else` เบื้องต้น
 
 ```csharp
 if (condition) 
