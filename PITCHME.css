@@ -1,11 +1,7 @@
 .reveal h1,
 .reveal h2,
+.reveal h3,
 section.has-dark-background h2 {
-  color: rgb(235, 86, 27);
-  text-shadow: 2px 2px 5px red;
-}
-
-.reveal h3 {
   color: rgb(235, 86, 27);
   text-shadow: 2px 2px 5px red;
 }
@@ -36,10 +32,6 @@ section.has-dark-background {
   color: #f26225;
 }
 .reveal{
-  color: #ffffff;
-}
-.reveal h3 {
-
   color: #ffffff;
 }
 /*สีพื้นหลัง*/
