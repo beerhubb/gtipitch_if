@@ -1,17 +1,15 @@
-## If && if-Else
+## if และ if-Else
 
 ---
 
-## Agenda
+## หัวเรื่อง
 
-@ol
 * Basic `if` statement syntaxs
 * Basic `if-else` statement syntaxs
-@olend
 
 ---
 
-## Basic `if` statement syntax 
+## การใช้ `if` เบื้องต้น
 
 ```csharp
 if (condition) 
@@ -22,7 +20,7 @@ if (condition)
 
 +++
 
-## Demo 1
+## ตัวอย่างที่ 1
 
 ```csharp
 var name = "John";
@@ -34,7 +32,7 @@ if (name == "John")
 Console.WriteLine("Sorry, I thought you're John.");
 ```
 
-#### result
+#### ผลลัพธ์
 
 ```csharp
 Oh, I'm looking for you John!
@@ -44,7 +42,7 @@ Sorry, I thought you're John.
 
 ---
 
-## Basic `if else` statement syntax 
+## การใช้ `if else` เบื้องต้น
 
 ```csharp
 if (condition) 
@@ -59,7 +57,7 @@ else
 
 +++
 
-## Demo 1
+## ตัวอย่างที่ 1
 
 ```csharp
 vat = 7.0; // VAT 7%
@@ -75,7 +73,7 @@ else
 }
 ```
 
- #### result
+ #### ผลลัพธ์
 
 ```csharp
 107
@@ -83,7 +81,7 @@ else
 
 +++
 
-## Demo 2
+## ตัวอย่างที่ 2
 
 ```csharp
 var name = "John";
@@ -98,7 +96,7 @@ else
 }
 ```
 
-#### result
+#### ผลลัพธ์
 
 ```csharp
 Oh, I'm looking for you John!
