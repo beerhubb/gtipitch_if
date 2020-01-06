@@ -1,25 +1,28 @@
-## If & if-else
+## else-if & nested if
 
----fasfcas
+---
 
 ## Agenda
 
 @ol
-* `if-else` Statement Syntaxs
-* `if` Statement Syntaxs
-
+*  `else-if` statement syntaxs
+*  nested ` if` statement syntaxs
 @olend
 
 ---
-##  `if else` Statement Syntax 
+
+## `else-if` statement syntaxs
 
 ```csharp
-if (condition) 
+if (conditionA) 
 {
-// Do if the condition is true
+    
+} else if(conditionB) 
+{
+    
 } else 
 {
-// Or if the condition is not met
+    
 }
 ```
 
@@ -28,52 +31,41 @@ if (condition)
 ## Demo 1
 
 ```csharp
-var name = "John";
+var sccore = 81;
 
-if (name == "John") 
+if (score > 80) 
 {
-	Console.WriteLine("Oh, I'm looking for you John!");
-} else 
+    Console.Writeline("A")
+} else if (score > 70) 
 {
-	Console.WriteLine("Sorry, I thought you're John.");
-}
-```
-
- #### result
-
-```text
-Oh, I'm looking for you John!
-```
-
-+++
-
-## Demo 2
-
-```csharp
-var name = "Joe";
-
-if (name == "John") 
+    Console.Writeline("B")
+}else 
 {
-	Console.WriteLine("Oh, I'm looking for you John!");
-} else 
-{
-	Console.WriteLine("Sorry, I thought you're John.");
+    Console.Writeline("F")
 }
 ```
 
 #### result
 
-```text
-Sorry, I thought you're John.
+```csharp
+A
 ```
 
 ---
-##  `if` Statement Syntax 
+
+##  `nested if` statement syntax 
 
 ```csharp
-if (condition) 
+if (conditionA) 
 {
-// Do if the condition is true
+	if (conditionB) 
+	{
+		
+	} 
+	else 
+	{
+
+	}
 }
 ```
 
@@ -82,19 +74,25 @@ if (condition)
 ## Demo 1
 
 ```csharp
-var name = "John";
+var number = 1;
+var numbers = 2;
 
-if (name == "John") 
+if (number == 1) 
 {
-	Console.WriteLine("Oh, I'm looking for you John!");
+
+	if (numbers == 2) 
+	{
+		Console.Writeline("Hello World")
+	} 
+	else 
+	{
+		Console.Writeline("Hello mama");
+	}
 }
-Console.WriteLine("Sorry, I thought you're John.");
 ```
 
 #### result
 
-```text
-Oh, I'm looking for you John!
-Sorry, I thought you're John.
+```csharp
+Hello World
 ```
-##### ถึง name จะเป็นจริงหรือไม่ *"Sorry, I thought you're John."* ยังแสดงผลอยู่ดี
